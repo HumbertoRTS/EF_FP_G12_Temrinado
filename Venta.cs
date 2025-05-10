@@ -16,13 +16,6 @@ namespace EF_FP_G12
         public Venta()
         {
             InitializeComponent();
-
-            //dgvventa.AutoGenerateColumns = false;
-            //dgvventa.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Nombre", DataPropertyName = "G12_nombreCliente" });
-            //dgvventa.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Apellidos", DataPropertyName = "G12_apellidoCliente" });
-            //dgvventa.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Producto", DataPropertyName = "G12_nombreProducto" });
-            //dgvventa.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Cantidad", DataPropertyName = "G12_Cantidad" });
-            //dgvventa.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Precio", DataPropertyName = "G12_precio" });
             
             //Elimina el botón de cerrar, minimizar y maximizar.
             this.ControlBox = false;
