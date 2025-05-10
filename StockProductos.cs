@@ -29,8 +29,7 @@ namespace EF_FP_G12
             dgvstock.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Precio", DataPropertyName = "G12_precio" });
 
             // Asignar la lista de productos en stock al DataGridView
-            dgvstock.DataSource = G12_productosEnStock;           
-            
+            dgvstock.DataSource = G12_productosEnStock;             
         }
 
         private void StockProductos_Load(object sender, EventArgs e)
@@ -39,7 +38,6 @@ namespace EF_FP_G12
             List<Productos> G12_listaProductos = Productos.ObtenerListaProductos();
             dgvstock.DataSource = G12_listaProductos;
             dgvstock.DataSource = Productos.ObtenerListaProductos();
-
         }
 
         // Método para buscar productos
@@ -79,7 +77,6 @@ namespace EF_FP_G12
                     txtbuscar.Clear();
                     txtbuscar.Focus();
                 }
-
             }
             catch (Exception ex)
             {
